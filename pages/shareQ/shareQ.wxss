@@ -1,0 +1,19 @@
+/* pages/shareQ/shareQ.wxss */
+page{
+  background-color: #f7f7f7;
+}
+textarea{
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #fff;
+}
+button{
+  background-color: #07c160;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+text{
+  margin: 20px;
+}

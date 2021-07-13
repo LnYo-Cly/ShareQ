@@ -1,0 +1,18 @@
+<!--pages/myHome/myHome.wxml-->
+<button wx:if="{{!userinfo}}" bindtap="login">登录</button>
+<view class="main" wx:else>
+  <image src="{{userinfo.avatarUrl}}" class="touxiang"></image>
+  <text>{{userinfo.nickName}}</text>
+  <button bindtap="logout">退出</button>
+  <text>
+  v1.0
+  </text>
+  <text>
+  1.暂不支持图片题和视频题
+  2.暂不支持批量导入题库
+  3.请勿恶意添加题库
+  4.忘记了
+  </text>
+</view>
+
+

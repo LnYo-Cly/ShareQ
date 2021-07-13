@@ -1,0 +1,43 @@
+{
+  "pages":[
+
+    "pages/searchQ/searchQ",
+    "pages/myHome/myHome",
+
+
+    "pages/shareQ/shareQ",
+
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "共享题库ShareQ",
+    "navigationBarTextStyle":"black"
+
+  },
+  "tabBar": {
+   
+    "color": "#aaa",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [{
+      "iconPath": "images/search-no.png",
+      "selectedIconPath": "images/search-yes.png",
+      "pagePath": "pages/searchQ/searchQ",
+      "text": "搜索"
+    }, {
+      "iconPath": "images/up-no.png",
+      "selectedIconPath": "images/up-yes.png",
+      "pagePath": "pages/shareQ/shareQ",
+      "text": "上传"
+    },{
+      "iconPath": "images/home-no.png",
+      "selectedIconPath": "images/home-yes.png",
+      "pagePath": "pages/myHome/myHome",
+      "text": "我的"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

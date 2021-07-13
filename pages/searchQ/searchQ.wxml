@@ -1,0 +1,7 @@
+<!--pages/searchQ/searchQ.wxml-->
+<textarea   placeholder="请输入你的问题" bindinput="getQue" class="myQue"></textarea>
+<button bindtap="search">查询</button>
+
+<view wx:for="{{ans}}">
+  <textarea  cols="30" rows="10" value="{{item.answer}}"></textarea>
+</view>

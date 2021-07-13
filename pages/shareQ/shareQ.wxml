@@ -1,0 +1,10 @@
+<!--题库上传分享界面-->
+
+<text>当前题库数量：{{total}}</text>
+<textarea name="" id=""  placeholder="请输入问题" bindinput="getQue"></textarea>
+<textarea name="" id=""  placeholder="请输入答案" bindinput="getAns"></textarea>
+<button bindtap="addQue">提交</button>
+<!-- <button>获取数据库</button>
+<view wx:for="{{list}}">
+<view>这是问题:{{item.question}}||这是答案:{{item.answer}}</view>
+</view> -->

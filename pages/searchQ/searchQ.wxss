@@ -1,0 +1,22 @@
+/* pages/searchQ/searchQ.wxss */
+page{
+  background-color: #f7f7f7;
+}
+.myQue{
+  border: 1px solid black;
+  margin: 10px ;
+  border-radius: 5px;
+  text-indent: 5px;
+  background-color: #fff;
+}
+button{
+  background-color: #07c160;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+view textarea{
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
