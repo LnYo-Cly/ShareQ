@@ -96,6 +96,7 @@ Page({
       },
       fail:res=>{
         console.log("成功，没有这个题目",res)
+        
       }
       
     })
